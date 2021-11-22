@@ -28,11 +28,15 @@ bbs-go`是一个使用Go语言搭建的开源社区系统，采用前后端分�
 
 ## 功能预览
 
-![首页.jpg](https://i.loli.net/2020/07/10/CzmOJZk3xjKM1cT.png)
-![动态.jpg](https://i.loli.net/2020/07/10/Qim57jL9MydbsZk.png)
+![首页.png](https://i.loli.net/2021/11/22/mxKCOjJnzek5YHo.png)
+![动态.png](https://i.loli.net/2021/11/22/iQOU2VDqCNZRvjL.png)
 ![后台.png](https://i.loli.net/2021/11/19/eJ7TNhPxFCsnfQy.png)
 
-<!-- ![后台.png](https://i.loli.net/2020/07/10/1BwAkrI6DOCWQS3.png) -->
+<!-- 
+![首页.jpg](https://i.loli.net/2020/07/10/CzmOJZk3xjKM1cT.png)
+![动态.jpg](https://i.loli.net/2020/07/10/Qim57jL9MydbsZk.png)
+![后台.png](https://i.loli.net/2020/07/10/1BwAkrI6DOCWQS3.png) 
+-->
 
 ## TODO
 
