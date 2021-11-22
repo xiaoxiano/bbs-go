@@ -6,34 +6,25 @@
 - Github: [https://github.com/mlogclub/bbs-go](https://github.com/mlogclub/bbs-go)
 - Gitee: [https://gitee.com/mlogclub/bbs-go](https://gitee.com/mlogclub/bbs-go)
 
-## 介绍
+## 简介
 
-`bbs-go`是一个使用Go语言搭建的开源社区系统，采用前后端分离技术，Go语言提供api进行数据支撑，用户界面使用Nuxt.js进行渲染，后台界面基于element-ui。如果你正在学习Go语言，或者考虑转Go语言的Phper/Javaer...那么该项目对你有的学习会有很大的帮助，欢迎一起来交流。
+bbs-go`是一个使用Go语言搭建的开源社区系统，采用前后端分离设计方案，项目分为三个模块：
+- server 使用go语言开发的api接口服务，为site和admin模块提供数据支撑。
+- site 使用 vue + nuxtjs 搭建的前台用户界面服务。
+- admin 使用 vue + element-ui 搭建的后台管理系统。
 
 ![bbs-go功能简介](https://i.loli.net/2021/11/12/OxTBib2pGcV8jzU.png)
 
-## 模块
+## 技术栈
 
-### server
-
-> 基于`Golang`搭建，提供接口数据支撑。
-
-*技术栈*
 - iris (https://github.com/kataras/iris) Go 语言 mvc 框架
 - gorm (http://gorm.io/) Go 语言 orm 框架
+- vue (https://vuejs.org/) Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
 - Nuxt.js （https://nuxtjs.org/） 基于Vue.js的服务端页面渲染框架，简单、好用、功能强大
+- element-ui (https://element.eleme.cn/#/) 饿了么开源UI框架
 - resty (https://github.com/go-resty/resty) Go 语言好用的 http-client
 - cron (https://github.com/robfig/cron) 定时任务
 - goquery (https://github.com/PuerkitoBio/goquery) html dom 元素解析
-
-### site
-
-> 前端页面渲染服务，基于`nuxt.js`搭建。
-
-*技术栈*
-- Nuxt.js (https://nuxtjs.org) 基于 Vue 的服务端渲染框架
-- Element-UI (https://element.eleme.cn) 饿了么开源的基于 vue.js 的前端库
-- Vditor (https://github.com/Vanessa219/vditor) Markdown 编辑器
 
 ## 功能预览
 
@@ -42,6 +33,13 @@
 ![后台.png](https://i.loli.net/2021/11/19/eJ7TNhPxFCsnfQy.png)
 
 <!-- ![后台.png](https://i.loli.net/2020/07/10/1BwAkrI6DOCWQS3.png) -->
+
+## TODO
+
+[] 私信功能
+[] 评论盖楼模式
+[] 邀请注册功能
+[] 夜间模式
 
 ## 付费服务
 
