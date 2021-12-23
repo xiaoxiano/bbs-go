@@ -1,0 +1,15 @@
+# bbs-go/server/bbs-go.yaml
+Env: dev # 环境，线上环境：prod、测试环境：dev
+BaseUrl: http://127.0.0.1:3000 # 网站域名
+Port: '8082' # 端口
+LogFile: /data/logs/bbs-go.log # 日志文件
+ShowSql: false # 是否打印sql
+StaticPath: /data/www  # 根路径下的静态文件目录，可配置绝对路径
+
+# 数据库连接
+MySqlUrl: root:123456@tcp(bbs-go-mysql:3306)/bbsgo_db?charset=utf8mb4&parseTime=True&loc=Local
+
+# es 配置
+Es:
+  Url: http://127.0.0.1:9200
+  Index: bbsgo_topic_1
